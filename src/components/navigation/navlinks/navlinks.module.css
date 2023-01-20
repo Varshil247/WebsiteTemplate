@@ -1,0 +1,14 @@
+.navlinks{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+}
+
+@media (max-width: 710px){
+    .navlinks{
+        display: flex;
+        flex-flow: column;
+    }
+}

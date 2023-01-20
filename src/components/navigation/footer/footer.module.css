@@ -1,0 +1,12 @@
+.footer{
+    background: var(--dark-bg);
+    padding: 5%;
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Serif Display', serif;
+    font-size: small;
+    color: var(--light-text);
+}

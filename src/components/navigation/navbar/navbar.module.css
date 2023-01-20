@@ -1,0 +1,25 @@
+.nav{
+    background-color: var(--dark-bg);
+}
+
+.navbar{
+    z-index: 200;
+    min-height: 10vh;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    white-space: nowrap;
+    font-weight: 1000;
+    font-size: 2rem;
+    color: var(--accent-green);
+}
+
+@media (max-width: 710px) {
+    .DesktopOnly{
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+.sidebarToggle{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--light-text);
+}
+
+@media (min-width: 711px) {
+    .sidebarToggle {
+        display: none;
+    }
+}

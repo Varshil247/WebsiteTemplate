@@ -1,0 +1,21 @@
+.defaultLink a{
+    margin: 0 1rem;
+    display: block;
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+.defaultLink a:hover,
+.defaultLink a:active,
+.defaultLink a.active{
+    transition: .5s;
+    cursor: pointer;
+    color: var(--accent-green);
+}
+
+@media (max-width: 710px){
+    .defaultLink a{
+        margin: 1rem 0;
+    }
+}
+
